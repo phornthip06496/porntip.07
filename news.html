@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ประชาสัมพันธ์ | วิทยาลัยเทคนิคนางรอง</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .banner {
+      background: linear-gradient(135deg, #0b2d59, #237ac0);
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .banner h2 {
+      color: white;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      font-size: 17px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin: 25px 0;
+    }
+
+    .contact-card {
+      background: white;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 4px 15px #12345615;
+      border: 1px solid #e2ebf5;
+    }
+
+    .contact-card h3 {
+      color: #145b9b;
+      margin-top: 0;
+    }
+
+    .contact-card p {
+      overflow-wrap: anywhere;
+    }
+
+    .contact-card a {
+      color: #1769aa;
+    }
+
+    .fb-button {
+      display: inline-block;
+      background: #1877f2;
+      color: white !important;
+      padding: 12px 22px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .fb-button:hover {
+      background: #0c55b8;
+    }
+
+    .official-button {
+      display: inline-block;
+      background: white;
+      color: #145b9b;
+      border: 1px solid #145b9b;
+      padding: 10px 20px;
+      border-radius: 9px;
+      text-decoration: none;
+      margin: 8px;
+    }
+
+    .menu-box {
+      background: #e8f3ff;
+      text-align: center;
+      padding: 25px;
+      border-radius: 14px;
+      margin: 30px 0;
+    }
+
+    .small-text {
+      font-size: 13px;
+      color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .banner h2 {
+        font-size: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>วิทยาลัยเทคนิคนางรอง</h1>
+    <p>ประชาสัมพันธ์ข่าวสารและข้อมูลการศึกษา</p>
+  </header>
+
+  <nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="departments.html">รายละเอียดแผนกวิชา</a>
+    <a href="news.html">ประชาสัมพันธ์</a>
+  </nav>
+
+  <main>
+
+    <section class="banner">
+      <h2>ยินดีต้อนรับสู่ประชาสัมพันธ์</h2>
+      <p>
+        ข่าวสาร กิจกรรม และข้อมูลการศึกษา
+        วิทยาลัยเทคนิคนางรอง
+      </p>
+      <a class="fb-button"
+         href="https://nrtech.ac.th/"
+         target="_blank"
+         rel="noopener noreferrer">
+        เว็บไซต์วิทยาลัย
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>🏫 เกี่ยวกับวิทยาลัย</h2>
+
+      <img class="main-image"
+        src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80"
+        alt="ภาพประกอบอาคารสถานศึกษา">
+
+      <p>
+        วิทยาลัยเทคนิคนางรองเป็นสถานศึกษาด้านอาชีวศึกษา
+        มุ่งพัฒนาผู้เรียนให้มีความรู้ ความสามารถ
+        และทักษะวิชาชีพ เพื่อนำไปใช้ในการศึกษาต่อ
+        และประกอบอาชีพในอนาคต
+      </p>
+
+      <p>
+        เว็บไซต์นี้จัดทำขึ้นเพื่อแนะนำแผนกวิชา
+        สาขาวิชา การเรียนการสอน และประชาสัมพันธ์
+        ข้อมูลที่เป็นประโยชน์สำหรับนักเรียน นักศึกษา
+        และผู้สนใจเข้าศึกษาต่อ
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>📢 ข่าวสารและกิจกรรม</h2>
+      <ul>
+        <li>ข่าวการรับสมัครนักเรียนและนักศึกษา</li>
+        <li>ข่าวสารการเรียนการสอนระดับ ปวช. และ ปวส.</li>
+        <li>กิจกรรมพัฒนาทักษะวิชาชีพ</li>
+        <li>กิจกรรมของนักเรียน นักศึกษา</li>
+        <li>ประกาศและข่าวสารจากทางวิทยาลัย</li>
+      </ul>
+      <p class="small-text">
+        หมายเหตุ: กรุณาติดตามประกาศล่าสุดจากช่องทางทางการของวิทยาลัย
+      </p>
+    </section>
+
+    <section class="center">
+      <h2>📱 ติดตามข่าวสารผ่าน Facebook</h2>
+      <p>
+        คลิกปุ่มด้านล่างเพื่อค้นหาเพจประชาสัมพันธ์
+        วิทยาลัยเทคนิคนางรอง
+      </p>
+
+      <a class="fb-button"
+         href="https://www.facebook.com/search/top?q=งานประชาสัมพันธ์วิทยาลัยเทคนิคนางรอง"
+         target="_blank"
+         rel="noopener noreferrer">
+        Facebook ประชาสัมพันธ์
+      </a>
+    </section>
+
+    <section>
+      <h2 class="center">☎️ ติดต่อวิทยาลัย</h2>
+
+      <div class="contact-grid">
+
+        <article class="contact-card">
+          <h3>📍 ที่อยู่</h3>
+          <p>
+            วิทยาลัยเทคนิคนางรอง<br>
+            เลขที่ 1 หมู่ 1 ถนนบ้านเก่า-แพงพวย<br>
+            ตำบลนางรอง อำเภอนางรอง<br>
+            จังหวัดบุรีรัมย์ 31110
+          </p>
+          <a href="https://www.google.com/maps/search/?api=1&query=วิทยาลัยเทคนิคนางรอง"
+             target="_blank"
+             rel="noopener noreferrer">
+            ดูแผนที่วิทยาลัย
+          </a>
+        </article>
+
+        <article class="contact-card">
+          <h3>☎️ เบอร์โทรศัพท์</h3>
+          <p>044-631-556</p>
+          <a href="tel:044631556">
+            โทรติดต่อวิทยาลัย
+          </a>
+        </article>
+
+        <article class="contact-card">
+          <h3>🌐 เว็บไซต์ทางการ</h3>
+          <p>ติดตามข้อมูลและประกาศจากวิทยาลัย</p>
+          <a href="https://nrtech.ac.th/"
+             target="_blank"
+             rel="noopener noreferrer">
+            www.nrtech.ac.th
+          </a>
+        </article>
+
+        <article class="contact-card">
+          <h3>🎓 ข้อมูลนักศึกษา</h3>
+          <p>ระบบสารสนเทศและบริการสำหรับนักศึกษา</p>
+          <a href="https://my.nrtech.ac.th/"
+             target="_blank"
+             rel="noopener noreferrer">
+            เข้าสู่ระบบ My NRT
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="menu-box">
+      
+    <p>เลือกหน้าที่ต้องการเข้าชม</p>
+
+      <a class="button" href="index.html">
+        🏠 หน้าแรก
+      </a>
+
+      <a class="button" href="departments.html">
+        💻 รายละเอียดแผนกวิชา
+      </a>
+
+      <a class="button" href="news.html">
+        📢 ประชาสัมพันธ์
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>เว็บไซต์แนะนำวิทยาลัยเทคนิคนางรอง</p>
+    <p>จัดทำเพื่อการศึกษา</p>
+    <p class="small-text">
+      ข้อมูลติดต่ออ้างอิงจากเว็บไซต์วิทยาลัย
+    </p>
+  </footer>
+
+</body>
+</html>
